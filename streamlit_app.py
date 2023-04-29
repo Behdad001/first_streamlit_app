@@ -97,7 +97,7 @@ if streamlit.button('Get fruit load list'):
 
 
 
-add_my_fruit = streamlit.text_input('What fruit would you like to add?','jackfruit')
-streamlit.write('Thanks for adding ', add_my_fruit)
-my_cur.execute("insert into PC_RIVERY_DB.PUBLIC.FRUIT_LOAD_LIST values ('from streamlit')")
+#add_my_fruit = streamlit.text_input('What fruit would you like to add?','jackfruit')
+#streamlit.write('Thanks for adding ', add_my_fruit)
+#my_cur.execute("insert into PC_RIVERY_DB.PUBLIC.FRUIT_LOAD_LIST values ('from streamlit')")
 
