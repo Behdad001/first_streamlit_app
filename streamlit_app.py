@@ -108,5 +108,5 @@ if streamlit.button('Add a fruit to the list'):
   
 
 
-my_cur.execute("insert into PC_RIVERY_DB.PUBLIC.FRUIT_LOAD_LIST values ('from streamlit')")
+
 
